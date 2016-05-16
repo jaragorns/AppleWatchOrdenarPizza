@@ -21,6 +21,14 @@
 		0F44A2411CE926C8000EBE45 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F44A2401CE926C8000EBE45 /* NotificationController.swift */; };
 		0F44A2431CE926C8000EBE45 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F44A2421CE926C8000EBE45 /* GlanceController.swift */; };
 		0F44A2451CE926C8000EBE45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F44A2441CE926C8000EBE45 /* Assets.xcassets */; };
+		0F44A2B81CE93045000EBE45 /* CheeseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F44A2B71CE93045000EBE45 /* CheeseController.swift */; };
+		0F44A2BA1CE93072000EBE45 /* AdditionalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F44A2B91CE93072000EBE45 /* AdditionalController.swift */; };
+		0FA6846E1CEA3F0D0079831E /* DoughControllerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6846D1CEA3F0D0079831E /* DoughControllerInterface.swift */; };
+		0FA684701CEA3FB40079831E /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6846F1CEA3FB40079831E /* Size.swift */; };
+		0FA684721CEA51FE0079831E /* ConfirmationInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA684711CEA51FE0079831E /* ConfirmationInterfaceController.swift */; };
+		0FA684741CEA52870079831E /* Dough.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA684731CEA52870079831E /* Dough.swift */; };
+		0FA684761CEA536F0079831E /* Cheese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA684751CEA536F0079831E /* Cheese.swift */; };
+		0FA684781CEA817E0079831E /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA684771CEA817E0079831E /* Pizza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +93,14 @@
 		0F44A2421CE926C8000EBE45 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
 		0F44A2441CE926C8000EBE45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F44A2461CE926C8000EBE45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F44A2B71CE93045000EBE45 /* CheeseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheeseController.swift; sourceTree = "<group>"; };
+		0F44A2B91CE93072000EBE45 /* AdditionalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdditionalController.swift; sourceTree = "<group>"; };
+		0FA6846D1CEA3F0D0079831E /* DoughControllerInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoughControllerInterface.swift; sourceTree = "<group>"; };
+		0FA6846F1CEA3FB40079831E /* Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
+		0FA684711CEA51FE0079831E /* ConfirmationInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationInterfaceController.swift; sourceTree = "<group>"; };
+		0FA684731CEA52870079831E /* Dough.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dough.swift; sourceTree = "<group>"; };
+		0FA684751CEA536F0079831E /* Cheese.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cheese.swift; sourceTree = "<group>"; };
+		0FA684771CEA817E0079831E /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +171,14 @@
 				0F44A23E1CE926C8000EBE45 /* ExtensionDelegate.swift */,
 				0F44A2401CE926C8000EBE45 /* NotificationController.swift */,
 				0F44A2421CE926C8000EBE45 /* GlanceController.swift */,
+				0FA6846D1CEA3F0D0079831E /* DoughControllerInterface.swift */,
+				0F44A2B71CE93045000EBE45 /* CheeseController.swift */,
+				0F44A2B91CE93072000EBE45 /* AdditionalController.swift */,
+				0FA684711CEA51FE0079831E /* ConfirmationInterfaceController.swift */,
+				0FA6846F1CEA3FB40079831E /* Size.swift */,
+				0FA684731CEA52870079831E /* Dough.swift */,
+				0FA684751CEA536F0079831E /* Cheese.swift */,
+				0FA684771CEA817E0079831E /* Pizza.swift */,
 				0F44A2441CE926C8000EBE45 /* Assets.xcassets */,
 				0F44A2461CE926C8000EBE45 /* Info.plist */,
 				0F44A23A1CE926C8000EBE45 /* Supporting Files */,
@@ -314,7 +338,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F44A2B81CE93045000EBE45 /* CheeseController.swift in Sources */,
+				0FA684721CEA51FE0079831E /* ConfirmationInterfaceController.swift in Sources */,
+				0FA6846E1CEA3F0D0079831E /* DoughControllerInterface.swift in Sources */,
+				0FA684741CEA52870079831E /* Dough.swift in Sources */,
 				0F44A2411CE926C8000EBE45 /* NotificationController.swift in Sources */,
+				0F44A2BA1CE93072000EBE45 /* AdditionalController.swift in Sources */,
+				0FA684761CEA536F0079831E /* Cheese.swift in Sources */,
+				0FA684701CEA3FB40079831E /* Size.swift in Sources */,
+				0FA684781CEA817E0079831E /* Pizza.swift in Sources */,
 				0F44A23F1CE926C8000EBE45 /* ExtensionDelegate.swift in Sources */,
 				0F44A23D1CE926C8000EBE45 /* InterfaceController.swift in Sources */,
 				0F44A2431CE926C8000EBE45 /* GlanceController.swift in Sources */,
@@ -550,6 +582,7 @@
 				0F44A24B1CE926C8000EBE45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F44A24D1CE926C8000EBE45 /* Build configuration list for PBXNativeTarget "AppleWatchOrdenarPizza WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +591,7 @@
 				0F44A24F1CE926C8000EBE45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F44A2511CE926C8000EBE45 /* Build configuration list for PBXNativeTarget "AppleWatchOrdenarPizza" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +600,7 @@
 				0F44A2531CE926C8000EBE45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
